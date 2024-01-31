@@ -6,11 +6,11 @@ const fetchMe = () => {
             console.log(conRes);
             conRes.map((song) => {
                 show.innerHTML += `
-                <div class="text-center">
+                <div class="text-center p-2">
                     <h5>${song.id}. ${song.songTitle} (ft) ${song.artistName}</h5>
                     <p>${song.releaseDate}</p>
                     <div>
-                        <img src= '${song.songImage}' alt="dp" width="300"/>
+                        <img src= '${song.songImage}' alt="dp" >
                     </div>
                     <audio src='${song.songUrl}' controls/>
                     </div>
