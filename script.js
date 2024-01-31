@@ -12,8 +12,9 @@ const fetchMe = () => {
                     <div>
                         <img src= '${song.songImage}' alt="dp" >
                     </div>
-                    <audio src='${song.songUrl}' controls/>
+                    <audio class="p-2" src='${song.songUrl}' controls/>
                     </div>
+                    <hr>
                     `
              })
         })
