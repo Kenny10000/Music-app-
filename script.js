@@ -11,7 +11,7 @@ const fetchMe = () => {
                     <p>${song.releaseDate}</p>
                     <div class="container">
                         <img src= '${song.songImage}' alt="dp">
-                        <div class="overlay">
+                        <div class="overlay text-center">
                         <div class="text-center text">Kenny music app <i class="i2 fa-solid fa-music animate__animated animate__bounce animate__heartBeat animate__infinite	infinite animate__delay-10s	15s"></i></div>
                       </div>
                     </div>
