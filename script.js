@@ -19,6 +19,12 @@ const fetchMe = () => {
                     </div>
                     <hr>
                     `
+                    suc.innerHTML = "You get audios Successful" 
+                    suc.style.display = "block"
+                    setTimeout(() =>{
+                        suc.style.display = "none"
+                    },10000
+                    )
              })
         })
         .catch((err)=>{
